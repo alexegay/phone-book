@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$background-color: rgba(242, 241, 239, 1);
+$white: rgba(255, 255, 255, 1);
+$grey: rgba(223, 222, 223, 1);
+$font: rgba(62, 62, 62, 1);
+$border: rgba(198, 174, 130, 1);
+body {
+    background-color: $background-color;
+}
+
+.App {
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 15px 10px;
+}
